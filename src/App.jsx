@@ -1,7 +1,13 @@
-import TravelPlan from "./components/TravelPlan";
+/** @format */
+
+import PlanTravels from "./components/PlanTravels";
 
 function App() {
-    return <TravelPlan />;
+  return (
+    <div>
+      <PlanTravels />
+    </div>
+  );
 }
 
 export default App;
